@@ -1,0 +1,14 @@
+##1 c++的重载，覆盖，隐藏。
+重载是函数名相同，而参数不同。（相同域）
+覆盖是函数名相同，有vitrual，子类会覆盖基类。（不同域）
+隐藏是函数名相同，没有vitrual，子类会覆盖基类。
+能定义一个基类的指针指向派生类，动态调用vitrual函数。
+派生类指针不能指向基类。
+
+当指针强制转换的时候，还是动态调用存储空间的内容。
+
+基类指针动态调用
+http://www.cnblogs.com/luwei-coder/archive/2012/11/30/cppcode3.html
+
+子类父类互转
+http://www.cnblogs.com/mu-tou-man/p/3925433.html
